@@ -1,4 +1,4 @@
-# Error Generator
+# Error Generator In C#
 A series of code utilities that generate random Java errors. The idea is to build different classes and then use class for name to randomly call them
 
 ## Using Error Generator
