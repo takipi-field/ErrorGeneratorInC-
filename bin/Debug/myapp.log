@@ -1,0 +1,101 @@
+2019-09-26 15:21:41,618 [1] INFO com.overops.ErrorGenerator - Logging, what up!!!
+2019-09-26 15:21:41,633 [1] DEBUG com.overops.ErrorGenerator - Setting up classes for Error Engine
+2019-09-26 15:21:41,633 [1] DEBUG com.overops.ErrorGenerator - Wait 10 seconds for OverOps to connect to collector and get ready to insert tiny link
+2019-09-26 15:21:51,655 [1] INFO com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Executing error generator for Error Type {} starting at {} for {} minute(s)</format><args>{ALL, 9/26/2019 3:21:51 PM, 120}</args></log4net.Error>
+2019-09-26 15:21:51,690 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.NullPointer}</args></log4net.Error>
+2019-09-26 15:21:51,722 [1] DEBUG com.overops.errors.NullPointer - Executing NullPointer Errors
+2019-09-26 15:21:51,722 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random NullPointer Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:51,956 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:21:52,171 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:21:52,391 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:21:52,614 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{2}</args></log4net.Error>
+2019-09-26 15:21:52,825 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:21:53,039 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{2}</args></log4net.Error>
+2019-09-26 15:21:53,262 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:21:53,477 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:21:53,694 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:21:53,910 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:21:53,910 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.DateParsingError}</args></log4net.Error>
+2019-09-26 15:21:53,933 [1] DEBUG com.overops.errors.DateParsingError - Executing Date Parsing Error
+2019-09-26 15:21:53,933 [1] DEBUG com.overops.util.DateParsingErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random DateParsing Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:54,095 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:54,227 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:54,365 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:54,508 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:54,631 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:54,769 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:54,916 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:55,054 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:55,197 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, String was not recognized as a valid DateTime.
+2019-09-26 15:21:55,332 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:21:55,332 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.IndexOutOfBounds}</args></log4net.Error>
+2019-09-26 15:21:55,352 [1] DEBUG com.overops.errors.IndexOutOfBounds - Executing IndexOutOfBounds Errors
+2019-09-26 15:21:55,356 [1] DEBUG com.overops.util.IndexOutOfBoundsErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random IndexOutOfBounds Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:56,402 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.InvalidCastException}</args></log4net.Error>
+2019-09-26 15:21:56,418 [1] DEBUG com.overops.errors.InvalidCastException - Executing InvalidCastException Errors
+2019-09-26 15:21:56,433 [1] DEBUG com.overops.util.InvalidCastExceptionUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random InvalidCast Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:57,508 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.InvalidArgument}</args></log4net.Error>
+2019-09-26 15:21:57,508 [1] DEBUG com.overops.errors.InvalidArgument - Executing Date Parsing Error
+2019-09-26 15:21:57,508 [1] DEBUG com.overops.util.InvalidArgumentUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random InvalidArgument Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:57,555 [1] ERROR com.overops.util.InvalidArgumentUtil - Input string was not in a correct format.
+2019-09-26 15:21:57,577 [1] ERROR com.overops.util.InvalidArgumentUtil - Invalid Percentage
+2019-09-26 15:21:57,608 [1] ERROR com.overops.util.InvalidArgumentUtil - Invalid Percentage
+2019-09-26 15:21:57,608 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.NumberFormatException}</args></log4net.Error>
+2019-09-26 15:21:57,624 [1] DEBUG com.overops.errors.NumberFormatException - Executing NumberFormatException Errors
+2019-09-26 15:21:57,639 [1] DEBUG com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random Parse Integer Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:57,773 [1] INFO com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is a number</format><args>{3234}</args></log4net.Error>
+2019-09-26 15:21:57,909 [1] ERROR com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{2012-10-10}</args></log4net.Error>
+2019-09-26 15:21:58,029 [1] INFO com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is a number</format><args>{356}</args></log4net.Error>
+2019-09-26 15:21:58,144 [1] ERROR com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{3234}</args></log4net.Error>
+2019-09-26 15:21:58,273 [1] INFO com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is a number</format><args>{4565}</args></log4net.Error>
+2019-09-26 15:21:58,398 [1] ERROR com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{#WhoKnows}</args></log4net.Error>
+2019-09-26 15:21:58,530 [1] INFO com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is a number</format><args>{356}</args></log4net.Error>
+2019-09-26 15:21:58,661 [1] ERROR com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{33445}</args></log4net.Error>
+2019-09-26 15:21:58,777 [1] INFO com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is a number</format><args>{356}</args></log4net.Error>
+2019-09-26 15:21:58,900 [1] ERROR com.overops.util.NumberFormatUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{12344}</args></log4net.Error>
+2019-09-26 15:21:58,931 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.TimerTest}</args></log4net.Error>
+2019-09-26 15:21:58,962 [1] DEBUG com.overops.errors.TimerTest - Executing Timer Test
+2019-09-26 15:21:58,962 [1] DEBUG com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random Timer Tester for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:58,984 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{100}</args></log4net.Error>
+2019-09-26 15:21:58,984 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{100}</args></log4net.Error>
+2019-09-26 15:21:59,000 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{50}</args></log4net.Error>
+2019-09-26 15:21:59,015 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{300}</args></log4net.Error>
+2019-09-26 15:21:59,015 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{20}</args></log4net.Error>
+2019-09-26 15:21:59,031 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{68}</args></log4net.Error>
+2019-09-26 15:21:59,031 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{68}</args></log4net.Error>
+2019-09-26 15:21:59,047 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{50}</args></log4net.Error>
+2019-09-26 15:21:59,047 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{40}</args></log4net.Error>
+2019-09-26 15:21:59,047 [1] ERROR com.overops.util.TimerTestUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{} is NOT a number</format><args>{40}</args></log4net.Error>
+2019-09-26 15:21:59,062 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.IllegalError}</args></log4net.Error>
+2019-09-26 15:21:59,084 [1] ERROR com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Class {} not found</format><args>{com.overops.errors.IllegalError}</args></log4net.Error>
+2019-09-26 15:21:59,084 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.NullPointer}</args></log4net.Error>
+2019-09-26 15:21:59,100 [1] DEBUG com.overops.errors.NullPointer - Executing NullPointer Errors
+2019-09-26 15:21:59,100 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random NullPointer Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:21:59,332 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:21:59,563 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:21:59,779 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:22:00,002 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:22:00,211 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{0}</args></log4net.Error>
+2019-09-26 15:22:00,420 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{0}</args></log4net.Error>
+2019-09-26 15:22:00,628 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{3}</args></log4net.Error>
+2019-09-26 15:22:00,864 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{2}</args></log4net.Error>
+2019-09-26 15:22:01,078 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{1}</args></log4net.Error>
+2019-09-26 15:22:01,095 [1] ERROR com.overops.util.NullErrorUtil - This error was uncaught
+2019-09-26 15:22:01,311 [1] DEBUG com.overops.util.NullErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Case number is {}</format><args>{0}</args></log4net.Error>
+2019-09-26 15:22:01,326 [1] ERROR com.overops.util.NullErrorUtil - Object reference not set to an instance of an object.
+2019-09-26 15:22:01,326 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.DateParsingError}</args></log4net.Error>
+2019-09-26 15:22:01,326 [1] DEBUG com.overops.errors.DateParsingError - Executing Date Parsing Error
+2019-09-26 15:22:01,342 [1] DEBUG com.overops.util.DateParsingErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random DateParsing Error generation for {} iterations </format><args>{10}</args></log4net.Error>
+2019-09-26 15:22:01,465 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, String was not recognized as a valid DateTime.
+2019-09-26 15:22:01,596 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:01,712 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:01,859 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:01,997 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:02,137 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:02,292 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:02,430 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:02,562 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:02,700 [1] ERROR com.overops.util.DateParsingErrorUtil - Error converting date, Invalid cast from 'DateTime' to 'Int64'.
+2019-09-26 15:22:02,700 [1] DEBUG com.overops.ErrorGenerator - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Find class for name: {}</format><args>{com.overops.errors.IndexOutOfBounds}</args></log4net.Error>
+2019-09-26 15:22:02,700 [1] DEBUG com.overops.errors.IndexOutOfBounds - Executing IndexOutOfBounds Errors
+2019-09-26 15:22:02,700 [1] DEBUG com.overops.util.IndexOutOfBoundsErrorUtil - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Random IndexOutOfBounds Error generation for {} iterations </format><args>{10}</args></log4net.Error>
