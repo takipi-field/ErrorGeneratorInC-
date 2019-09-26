@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorGenerator", "ErrorGenerator.csproj", "{CBF79A20-A9DF-4098-B830-0568809F2AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF79A20-A9DF-4098-B830-0568809F2AC9}.Debug|x86.ActiveCfg = Debug|x86
+		{CBF79A20-A9DF-4098-B830-0568809F2AC9}.Debug|x86.Build.0 = Debug|x86
+		{CBF79A20-A9DF-4098-B830-0568809F2AC9}.Release|x86.ActiveCfg = Release|x86
+		{CBF79A20-A9DF-4098-B830-0568809F2AC9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC0E34B6-3466-495E-A528-0A34DBABA5E8}
+	EndGlobalSection
+EndGlobal

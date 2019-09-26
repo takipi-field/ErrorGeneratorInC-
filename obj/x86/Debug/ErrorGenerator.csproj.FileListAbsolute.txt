@@ -1,0 +1,11 @@
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\obj\x86\Debug\ErrorGenerator.csprojAssemblyReference.cache
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\obj\x86\Debug\ErrorGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\bin\Debug\packages.config
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\bin\Debug\log4net.dll
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\bin\Debug\log4net.xml
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\obj\x86\Debug\ErrorGenerator.csproj.CopyComplete
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\bin\Debug\ErrorGenerator.exe
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\bin\Debug\ErrorGenerator.pdb
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\obj\x86\Debug\ErrorGenerator.exe
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\obj\x86\Debug\ErrorGenerator.pdb
+C:\Users\Eric\Documents\workspace\ErrorGeneratorInC\bin\Debug\ErrorGenerator.exe.config
