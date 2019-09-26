@@ -10,7 +10,7 @@ set COR_ENABLE_PROFILING=1
 set COR_PROFILER={9E9BF2AC-891E-4AAD-9192-44645082EB3E}
 set TAKIPI_ARGS=takipi.symbols.path=<full path to pbd files>\\ErrorGeneratorInC\\bin\Debug\\,takipi.sources.path=<full path to source files>\\ErrorGeneratorInC\\src\\main\\java\\com\\overops\\
 
-Once you have the batch file, put it in the bin\debug folder along with the newly create exe file and the pdb file. 
+Once you have the batch file, put it in the bin\debug folder along with the newly create exe file and the pdb file. Open a cmd prompt and navigate to the folder with the executable, pbd and newly created batch file. Execute the batch file to set the environment variables and then execute the executable.
 
 ## How to add new Error Utilities
 In com.overops.errors, there is BaseError interface. Create a new Error class and implement the BaseError interface (see one of the other classes as an example). This class will be added to the list of classes in the main method class listed above (there is a error map in ErrorGenerator). You can classify your error type in order to generate only null pointers or invalid arguments or run all error types. Once you have the new class created, then create the actual code to create the errors in the com.overops.util package. If you look at an existing class, you will see the pattern. 
