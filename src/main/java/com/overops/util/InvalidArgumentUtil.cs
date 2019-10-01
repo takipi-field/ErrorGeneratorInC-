@@ -18,7 +18,8 @@ namespace com.overops.util
 			{
 				try
 				{
-					long data = Convert.ToInt64(getRandomValue(dataList));
+                    String number = getRandomValue(dataList);
+                    long data = Convert.ToInt64(number);
 					if (i % 2 == 0)
 					{
 						checkPercentage(data);
