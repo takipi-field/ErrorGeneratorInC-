@@ -20,8 +20,8 @@ namespace com.overops.util
 				try
 				{
 					Thread.Sleep(100);
-					string value = getRandomValue(dataList);
-					long? value2 = Convert.ToInt64(value);
+					string data = getRandomValue(dataList);
+					long? value2 = Convert.ToInt64(data);
 
 				}
 				catch (Exception e)

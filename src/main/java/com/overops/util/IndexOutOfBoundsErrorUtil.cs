@@ -20,8 +20,8 @@ namespace com.overops.util
 				try
 				{
 					Thread.Sleep(100);
-					int value = RandomUtil.generateRandom(10);
-					string returnString = dataList[value];
+					int data = RandomUtil.generateRandom(10);
+					string returnString = dataList[data];
 
 				}
 				catch (Exception e)

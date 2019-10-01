@@ -17,8 +17,8 @@ namespace com.overops.util
 			{
 				try
 				{
-					string value = getRandomValue(dataList);
-					int? intValue = parseInteger(value);
+					string data = getRandomValue(dataList);
+					int? intValue = parseInteger(data);
 
 					Thread.Sleep(intValue.Value);
 				}
@@ -33,16 +33,16 @@ namespace com.overops.util
 		/*
 		 * Better way of checking if a string is a number that doesn't create exceptions that eat CPU cycles
 		 */
-		private static int? parseInteger(string value)
+		private static int? parseInteger(string data)
 		{
-			object @object = value;
+			object @object = data;
 			if (@object is int?)
 			{
 				return (int?) @object;
 			}
 			else
 			{
-				log.ErrorFormat("{} is NOT a number", value);
+				log.ErrorFormat("{} is NOT a number", data);
 			}
 			return 0;
 		}

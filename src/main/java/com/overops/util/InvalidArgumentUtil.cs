@@ -18,14 +18,14 @@ namespace com.overops.util
 			{
 				try
 				{
-					long value = Convert.ToInt64(getRandomValue(dataList));
+					long data = Convert.ToInt64(getRandomValue(dataList));
 					if (i % 2 == 0)
 					{
-						checkPercentage(value);
+						checkPercentage(data);
 					}
 					else
 					{
-						percentValidator(value);
+						percentValidator(data);
 					}
 				}
 				catch (Exception e)
@@ -46,9 +46,9 @@ namespace com.overops.util
 
 //JAVA TO C# CONVERTER WARNING: Method 'throws' clauses are not available in C#:
 //ORIGINAL LINE: private static void checkPercentage(System.Nullable<long> value) throws IllegalArgumentException
-		private static void checkPercentage(long value)
+		private static void checkPercentage(long data)
 		{
-			if (value < 0 || value > 100)
+			if (data < 0 || data > 100)
 			{
 				throw new System.ArgumentException("Invalid Percentage");
 			}
@@ -56,9 +56,9 @@ namespace com.overops.util
 
 //JAVA TO C# CONVERTER WARNING: Method 'throws' clauses are not available in C#:
 //ORIGINAL LINE: private static void percentValidator(System.Nullable<long> value) throws IllegalArgumentException
-		private static void percentValidator(long value)
+		private static void percentValidator(long data)
 		{
-			checkPercentage(value);
+			checkPercentage(data);
 		}
 
 		private static IList<string> setupData()

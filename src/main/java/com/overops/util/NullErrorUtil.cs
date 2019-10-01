@@ -17,9 +17,9 @@ namespace com.overops.util
 			for (int i = 0; i < numOfIterations; i++)
 			{
 				sleep();
-				int value = RandomUtil.generateRandom(4);
-				log.DebugFormat("Case number is {}", value);
-				switch (value)
+				int randNum = RandomUtil.generateRandom(4);
+				log.DebugFormat("Case number is {}", randNum);
+				switch (randNum)
 				{
 					case 0 :
 						testCaughtNulls(getRandomString(dataList));
@@ -44,18 +44,18 @@ namespace com.overops.util
 			}
 		}
 
-		private static void intermediateMethod(string value)
+		private static void intermediateMethod(string data)
 		{
-			testCaughtNulls(value);
+			testCaughtNulls(data);
 		}
 		/*
 		 * This creates a null pointer that is caught and logged
 		 */
-		private static void testCaughtNulls(string value)
+		private static void testCaughtNulls(string data)
 		{
 			try
 			{
-				if (value.Equals("hello", StringComparison.OrdinalIgnoreCase))
+				if (data.Equals("hello", StringComparison.OrdinalIgnoreCase))
 				{
 					//matching logic would go here
 				}
@@ -69,11 +69,11 @@ namespace com.overops.util
 		/*
 		 * This creates a null pointer that is caught and not logged
 		 */
-		private static void testSwallowedNulls(string value)
+		private static void testSwallowedNulls(string data)
 		{
 			try
 			{
-				if (value.Equals("hello", StringComparison.OrdinalIgnoreCase))
+				if (data.Equals("hello", StringComparison.OrdinalIgnoreCase))
 				{
 					//matching logic would go here
 				}
@@ -88,9 +88,9 @@ namespace com.overops.util
 		/*
 		 * This creates a null pointer that is caught and not logged
 		 */
-		private static void testUncaughtNulls(string value)
+		private static void testUncaughtNulls(string data)
 		{
-			if (value.Equals("hello", StringComparison.OrdinalIgnoreCase))
+			if (data.Equals("hello", StringComparison.OrdinalIgnoreCase))
 			{
 				//matching logic would go here
 			}

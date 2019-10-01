@@ -37,8 +37,8 @@ namespace com.overops.util
 
         public static int generateRandom(int length)
         {
-            int value = hdrRndm.Next(length);
-            return value;
+            int data = hdrRndm.Next(length);
+            return data;
         }
 
 

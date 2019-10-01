@@ -20,14 +20,14 @@ namespace com.overops.util
 				try
 				{
 					Thread.Sleep(100);
-					string value = getRandomValue(dataList);
+					string data = getRandomValue(dataList);
 					if (i % 2 == 0)
 					{
-						parseIntegerOld(value);
+						parseIntegerOld(data);
 					}
 					else
 					{
-						parseIntegerNew(value);
+						parseIntegerNew(data);
 					}
 				}
 				catch (Exception e)
@@ -41,33 +41,33 @@ namespace com.overops.util
 		/*
 		 * try catch method of testing if a string is a number
 		 */
-		private static void parseIntegerOld(string value)
+		private static void parseIntegerOld(string data)
 		{
 			try
 			{
-				int.Parse(value);
-				log.InfoFormat("{} is a number", value);
+				int.Parse(data);
+				log.InfoFormat("{} is a number", data);
 			}
 			catch (System.FormatException)
 			{
-				log.ErrorFormat("{} is NOT a number", value);
+				log.ErrorFormat("{} is NOT a number", data);
 			}
 		}
 
 		/*
 		 * Better way of checking if a string is a number that doesn't create exceptions that eat CPU cycles
 		 */
-		private static void parseIntegerNew(string value)
+		private static void parseIntegerNew(string data)
 		{
-			object objectValue = value;
+			object objectValue = data;
 			if (objectValue is int)
 			{
 				int integer = (int) objectValue;
-				log.InfoFormat("{} is a number", value);
+				log.InfoFormat("{} is a number", data);
 			}
 			else
 			{
-				log.ErrorFormat("{} is NOT a number", value);
+				log.ErrorFormat("{} is NOT a number", data);
 			}
 		}
 

@@ -20,9 +20,9 @@ namespace com.overops.util
 				try
 				{
 					Thread.Sleep(100);
-					long value = RandomUtil.convertDate(getRandomDate(dataList));
+					long data = RandomUtil.convertDate(getRandomDate(dataList));
 
-					if (value > 0)
+					if (data > 0)
 					{
 						long value2 = RandomUtil.convertDate(getRandomDate(dataList));
 					}
