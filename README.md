@@ -2,9 +2,9 @@
 A series of code utilities that generate random Java errors. The idea is to build different classes and then use class for name to randomly call them
 
 ## Using Error Generator
-The main method is in com.overops.ErrorGenerator. It takes in two parameters (length of run and error types). Example for 1k iterations for all exception types:
+The main method is in com.overops.ErrorGenerator. It takes in two parameters (length of run in minutes and error types). Example for 5 minutes for all exception types:
 ```
-C:\> ErrorGenerator 1000 All
+C:\> ErrorGenerator 5 All
 ```
 The best way to use this is to build an EXE file and then execute it from the command line (right click on the project in Solution Explorer and choose build).
 
